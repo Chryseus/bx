@@ -20,8 +20,8 @@ build:
  
 artifacts:
   - path: "'**\\*.lib'"
-  name: release
-  type: WebDeployPackage
+  - name: release
+  - type: WebDeployPackage
 
   
 deploy:
