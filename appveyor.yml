@@ -19,7 +19,7 @@ build:
   project: .build/projects/$(TOOLSET)/bx.sln
  
  artifacts:
- - path: "'**\\*.lib'"
+  path: "'**\\*.lib'"
   name: release
   type: WebDeployPackage
 
